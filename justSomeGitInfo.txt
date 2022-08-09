@@ -59,7 +59,7 @@ git stash clear // delete ALL the stashes
 git stash list
 git stash show
 
+These are some Infos on merging from branch br2 and the issueBranch.
+This merge uses br2s and issueBranches versions of the files.
 this should introduce some conflicts.
-This version of the file uses information of the issueBranch.
 This is a third line, only existing in the issueBranch.
-Lets see, how it merges.
