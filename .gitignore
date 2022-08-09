@@ -1,0 +1,4 @@
+/someLocalConfigDir
+/localLogs/*.log
+*.jpg
+*.png
