@@ -6,3 +6,6 @@ git checkout master
 //merge the issue-branch into the current branch:
 git merge issue
 //useful options: -m "message for merge"
+
+git rebase:
+will come in the future.
