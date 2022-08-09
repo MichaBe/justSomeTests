@@ -58,3 +58,6 @@ git stash clear // delete ALL the stashes
 
 git stash list
 git stash show
+
+These are some Infos on merging from branch br2.
+This merge uses br2s version of the files.
