@@ -1,0 +1,8 @@
+git merge:
+
+//change to the branch, you want to merge into:
+git checkout master
+
+//merge the issue-branch into the current branch:
+git merge issue
+//useful options: -m "message for merge"
