@@ -25,3 +25,20 @@ will change to
                  /
     D---E---F---G master
 
+
+git rebase --onto master next topic
+works like this:
+
+    o---o---o---o---o  master
+         \
+          o---o---o---o---o  next
+                           \
+                            o---o---o  topic
+
+to
+
+    o---o---o---o---o  master
+        |            \
+        |             o'--o'--o'  topic
+         \
+          o---o---o---o---o  next
