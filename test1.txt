@@ -1,1 +1,2 @@
-my first line in the first file...
+my first line in the first file... added something in the first line!
+Second line in first file.
