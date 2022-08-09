@@ -58,3 +58,8 @@ git stash clear // delete ALL the stashes
 
 git stash list
 git stash show
+
+this should introduce some conflicts.
+This version of the file uses information of the issueBranch.
+This is a third line, only existing in the issueBranch.
+Lets see, how it merges.
