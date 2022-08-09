@@ -42,3 +42,19 @@ to
         |             o'--o'--o'  topic
          \
           o---o---o---o---o  next
+
+git stash:
+stashing means putting away the work, done since the 
+last commit to get a clean working directory again.
+
+git stash // clean current state to the stash
+git stash push -S // only stash staged changes
+
+git stash pop // get top most stash to the current working dir.
+
+git stash drop // delete topmost stash without applying
+git stash apply // apply topmost stash without deleting
+git stash clear // delete ALL the stashes
+
+git stash list
+git stash show
