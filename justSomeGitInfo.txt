@@ -8,4 +8,20 @@ git merge issue
 //useful options: -m "message for merge"
 
 git rebase:
-will come in the future.
+reapply commits on top of another base tip
+if "issue" is the current branch, and it should 
+be on top of "master", than the following command 
+will do that:
+git rebase master
+
+
+          A---B---C topic
+         /
+    D---E---F---G master
+
+will change to
+
+                  A'--B'--C' topic
+                 /
+    D---E---F---G master
+
